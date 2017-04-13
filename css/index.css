@@ -1,0 +1,91 @@
+/*初始化页面*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    text-align: center;
+}
+
+span{
+    border:1px solid #898989;
+    border-radius:8px;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    background-color: red;
+    padding: 5px 50px;
+    margin-top:20px;
+    display: inline-block;
+    box-shadow: #898989 4px  6px  5px ;
+}
+
+#Bbox{
+    width: 630px;
+    position:relative;
+    margin: 20px auto;
+}
+
+.bigbox,.smallbox{
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    white-space: nowrap;
+    vertical-align:middle;
+    border-radius: 4px;
+    margin-bottom:0;
+    border: 1px solid transparent;
+}
+
+.bigbox{
+    width: 420px;
+    height: 420px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+#start{
+    width: 200px;
+    margin: 50px auto;
+}
+
+.smallbox{
+    height: 68px;
+    width: 93px;
+    border: 1px solid blue;
+    float: left;
+    margin: 5px;
+    padding-top:25px;
+    font-size: 30px;
+    text-align: center;
+    background-color: deepskyblue;
+    font-size: 30px;
+}
+
+.btn{
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    font-size: 15px;
+    border: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border:5px solid black;
+    box-shadow: darkgrey 2px 2px 2px 2px;
+}
+.btn:hover{
+    background-color: red;
+}
+#keys{
+    width: 200px;
+    margin: 20px auto;
+    font-size: 84px;
+    color: aqua;
+}

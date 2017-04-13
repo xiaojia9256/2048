@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-2.0.3.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!--图标显示-->
+    <span>↑，↓，←，→  W,A,S,D  控制方向</span>
+    <!--16个盒子-->
+    <div id="Bbox">
+        <!--  提示点击的方向 -->
+        <div id="keys">&nbsp;</div>
+        <div class="bigbox" id="b-box">
+            <div class="smallbox" id="box0"></div>
+            <div class="smallbox" id="box1"></div>
+            <div class="smallbox" id="box2"></div>
+            <div class="smallbox" id="box3"></div>
+            <div class="smallbox" id="box4"></div>
+            <div class="smallbox" id="box5"></div>
+            <div class="smallbox" id="box6"></div>
+            <div class="smallbox" id="box7"></div>
+            <div class="smallbox" id="box8"></div>
+            <div class="smallbox" id="box9"></div>
+            <div class="smallbox" id="box10"></div>
+            <div class="smallbox" id="box11"></div>
+            <div class="smallbox" id="box12"></div>
+            <div class="smallbox" id="box13"></div>
+            <div class="smallbox" id="box14"></div>
+            <div class="smallbox" id="box15"></div>
+        </div>
+    </div>
+
+    <!--开始标签-->
+    <div id='start'>
+        <input type="button" value="开始" class="btn" onclick='init();'>
+        <input type="button" value="重新开始" class="btn" onClick="if(window.confirm('您确定重新开始吗?')){init();}">
+    </div>
+    <!--总分数-->
+    <div id="score"> 总分数 ：00</div>
+    <!--最大值-->
+    <div id="max">当前最大值：</div>
+    <!--用时-->
+    <div id="time">用时：0s</div>
+    <!--提示结束-->
+    <div id="end"></div>
+
+</body>
+
+</html>
